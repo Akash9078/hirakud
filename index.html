@@ -398,6 +398,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
     <!-- own js -->
     <script src="js/main.js"></script>
+
+
+    <!-- n8n chatbot -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://n8ndroplet.yesintelligent.com/webhook/6cac4af7-d39f-44b5-9dd1-833e35546d43/chat'
+        });
+    </script>
+    
 </body>
 
 </html>

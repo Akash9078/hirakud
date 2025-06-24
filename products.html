@@ -45,8 +45,8 @@
                             <a class="nav-link active" aria-current="page" href="/harvest-chart.html">HARVEST CHART</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/products.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="/products.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 PRODUCTS
                             </a>
                             <ul class="dropdown-menu">
@@ -55,7 +55,8 @@
                                 <li><a class="dropdown-item" href="/seeds.html">SEEDS</a></li>
                                 <li><a class="dropdown-item" href="/millets-grains.html">MILLETS AND GRAINS</a></li>
                                 <li><a class="dropdown-item" href="/dried-fruits.html">DRIED FRUITS AND NUTS</a></li>
-                                <li><a class="dropdown-item" href="/dehydrated-products.html">DEHYDRATED PRODUCTS</a></li>
+                                <li><a class="dropdown-item" href="/dehydrated-products.html">DEHYDRATED PRODUCTS</a>
+                                </li>
                                 <li><a class="dropdown-item" href="/coconut-products.html">COCONUT PRODUCTS</a></li>
                                 <li><a class="dropdown-item" href="/coffee.html">COFFEE</a></li>
                                 <li><a class="dropdown-item" href="/pulses.html">PULSES</a></li>
@@ -80,14 +81,14 @@
         </nav>
     </header>
 
-        <!-- Banner Section -->
+    <!-- Banner Section -->
     <section class="aboutus-hero position-relative">
         <div class="aboutus-hero-overlay position-absolute top-0 start-0 w-100 h-100"></div>
         <div class="container position-relative z-2 py-5">
             <h1 class="aboutus-hero-title text-center text-light">PRODUCTS</h1>
         </div>
     </section>
-    
+
     <!-- Footer Section -->
     <footer class="site-footer">
         <div class="container py-4">
@@ -95,7 +96,8 @@
                 <!-- Brand & About -->
                 <div class="col-md-4">
                     <div class="footer-brand mb-3">
-                        <img src="https://pub-978fa224b48646b0b99f042a0935693b.r2.dev/hirakudenterprisespvtltdfavicon.jpg" alt="Hirakud Enterprises Logo" class="footer-logo">
+                        <img src="https://pub-978fa224b48646b0b99f042a0935693b.r2.dev/hirakudenterprisespvtltdfavicon.jpg"
+                            alt="Hirakud Enterprises Logo" class="footer-logo">
                         <span class="footer-brand-name">Hirakud Enterprises Pvt. Ltd.</span>
                     </div>
                     <p class="footer-about">
@@ -141,7 +143,8 @@
                 <div class="col-md-4">
                     <h5 class="footer-title">Contact</h5>
                     <ul class="footer-contact">
-                        <li><i class="fas fa-map-marker-alt"></i> Hirakud Enterprises Pvt. Ltd., Main Office, Your Address, City, Country
+                        <li><i class="fas fa-map-marker-alt"></i> Hirakud Enterprises Pvt. Ltd., Main Office, Your
+                            Address, City, Country
                         </li>
                         <li><i class="fas fa-envelope"></i> info@hirakudenterprises.com</li>
                         <li><i class="fas fa-phone"></i> +91-12345-67890</li>
@@ -158,9 +161,9 @@
             </div>
         </div>
         <div class="footer-bottom text-center py-2">
-                <div class="footer-copyright">
-                    &copy; 2025 Hirakud Enterprises Pvt. Ltd. All Rights Reserved.
-                </div>
+            <div class="footer-copyright">
+                &copy; 2025 Hirakud Enterprises Pvt. Ltd. All Rights Reserved.
+            </div>
         </div>
     </footer>
 
@@ -169,6 +172,17 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
     <!-- own js -->
     <script src="js/main.js"></script>
+
+    <!-- n8n chatbot -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://n8ndroplet.yesintelligent.com/webhook/6cac4af7-d39f-44b5-9dd1-833e35546d43/chat'
+        });
+    </script>
+
 </body>
 
 </html>

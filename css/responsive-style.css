@@ -118,17 +118,13 @@
 
 /* About Us Page Responsive */
 @media (max-width: 991.98px) {
-  .aboutus-main-img {
-    max-width: 160px;
-  }
+
   .aboutus-hero-title {
     font-size: 2rem;
   }
 }
 @media (max-width: 575.98px) {
-  .aboutus-main-img {
-    max-width: 110px;
-  }
+
   .aboutus-hero-title {
     font-size: 1.3rem;
     padding-top: 2rem !important;
