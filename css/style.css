@@ -200,7 +200,7 @@ p {
 
 /* Banners */
 .top-banner {
-  height: 50vh;
+  height: 75vh;
   position: relative;
   background: url('../img/backgroundimg.jpg') no-repeat center center/cover;
   margin: 0;
@@ -210,7 +210,7 @@ p {
 
 .aboutus-banner {
   position: relative;
-  height: 55vh;
+  height: 50vh;
   margin: 2rem 0;
   padding: 4rem 0;
 }
@@ -289,7 +289,7 @@ p {
 
 .why-choose-overlay {
   background: rgba(0,70,50,0.7);
-  border-radius: 120px 120px 120px 120px / 80px 80px 80px 80px;
+  border-radius: 24px;
   padding: 2.5rem 1.5rem;
 }
 
@@ -492,4 +492,211 @@ p {
 .footer-powered-by {
   color: var(--third-color);
   font-weight: 600;
+}
+
+/* About Us Page Custom Styles */
+.aboutus-hero {
+  background: url('../img/backgroundimg.jpg') no-repeat center center/cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+.aboutus-hero-overlay {
+  background: rgba(0,0,0,0.45);
+  z-index: 1;
+}
+.aboutus-hero-title {
+  font-size: 2.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  z-index: 2;
+  position: relative;
+  padding-top: 0 !important;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.aboutus-main-title {
+  color: #2d4c2f;
+}
+.aboutus-main-img {
+  max-width: 220px;
+}
+
+.aboutus-whychoose-title {
+  color: #2d4c2f;
+}
+.aboutus-whychoose-card h5 {
+  color: #2d4c2f;
+}
+.aboutus-whychoose-badge {
+  width: 32px;
+  height: 32px;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus-info-card h5 {
+  color: #2d4c2f;
+}
+
+.aboutus-highlight {
+  background: var(--primary-color);
+}
+.aboutus-highlight-text {
+  font-size: 1.15rem;}
+.aboutus-highlight-sub1 {
+  color: #e9f7a8;
+}
+.aboutus-highlight-sub2 {
+  color: #f9ffa8;
+}
+
+
+/* Harvest Chart Styles */
+.harvest-chart-section {
+  background: var(--primary-color);
+  min-height: 100vh;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.harvest-chart-wrapper {
+  background: #c6d36e;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.07);
+  max-width: 900px;
+  overflow-x: auto;
+  padding: 1.5rem 1rem;
+}
+
+.harvest-chart-table {
+  background: transparent;
+  color: #2d4c2f;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.05rem;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.harvest-chart-table th,
+.harvest-chart-table td {
+  border: 1px solid #b5c35c;
+  vertical-align: middle;
+  text-align: center;
+  padding: 0.45rem 0.3rem;
+}
+
+.harvest-chart-table th {
+  background: #d0db67;
+  color: #2d4c2f;
+  font-weight: 700;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+}
+
+.harvest-chart-table .hc-commodities {
+  font-weight: 600;
+  color: #5e7c1b;
+  text-align: left;
+  background: #d0db67;
+  min-width: 140px;
+}
+
+@media (max-width: 991.98px) {
+  .harvest-chart-wrapper {
+    padding: 1rem 0.2rem;
+    max-width: 100%;
+  }
+  .harvest-chart-table {
+    font-size: 0.98rem;
+    min-width: 600px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .harvest-chart-section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .harvest-chart-table {
+    font-size: 0.92rem;
+    min-width: 400px;
+  }
+}
+
+/* Inquiry Section Layout */
+.inquiry-section {
+    min-height: 60vh;
+}
+.inquiry-details {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 32px 24px;
+    width: 100%;
+    max-width: 480px;
+}
+.inquiry-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.inquiry-description {
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+.inquiry-contact-list li,
+.inquiry-offices li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+}
+.inquiry-contact-list i {
+    color: #7c9c2a;
+}
+.inquiry-form-wrapper {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+@media (max-width: 991.98px) {
+    .inquiry-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .inquiry-details {
+        max-width: 100%;
+        padding: 20px 8px;
+    }
+    .inquiry-form-wrapper {
+        padding: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .inquiry-section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .inquiry-details {
+        padding: 12px 4px;
+    }
+    .inquiry-title {
+        font-size: 1.4rem;
+    }
 }

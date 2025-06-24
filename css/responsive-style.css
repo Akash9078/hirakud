@@ -1,11 +1,3 @@
-/* Top Banner Responsive */
-
-@media (max-width: 575px) {
-  .top-banner {
-    height: 70vh;
-  }
-}
-
 /* Category Cards Responsive */
 @media (max-width: 991.98px) {
   .category-label {
@@ -82,7 +74,7 @@
   }
   .why-choose-overlay {
     padding: 1.5rem 0.7rem;
-    border-radius: 80px 80px 80px 80px / 50px 50px 50px 50px;
+    border-radius: 24px;
   }
   .why-choose-title {
     font-size: 1.3rem;
@@ -109,7 +101,7 @@
   }
   .why-choose-overlay {
     padding: 0.7rem 0.3rem;
-    border-radius: 40px 40px 40px 40px / 25px 25px 25px 25px;
+    border-radius: 15px;
   }
   .why-choose-title {
     font-size: 1rem;
@@ -121,5 +113,27 @@
     width: 36px;
     height: 36px;
     font-size: 1rem;
+  }
+}
+
+/* About Us Page Responsive */
+@media (max-width: 991.98px) {
+  .aboutus-main-img {
+    max-width: 160px;
+  }
+  .aboutus-hero-title {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .aboutus-main-img {
+    max-width: 110px;
+  }
+  .aboutus-hero-title {
+    font-size: 1.3rem;
+    padding-top: 2rem !important;
+  }
+  .aboutus-highlight-text {
+    font-size: 0.95rem;
   }
 }
