@@ -202,7 +202,7 @@ p {
 .top-banner {
   height: 75vh;
   position: relative;
-  background: url('../img/backgroundimg.jpg') no-repeat center center/cover;
+  background: url('../img/backgroundimg.webp') no-repeat center center/cover;
   margin: 0;
   padding: 5rem 0;
   text-shadow: #000 0px 0px 10px;
@@ -495,7 +495,7 @@ p {
 
 /* About Us Page Custom Styles */
 .aboutus-hero {
-  background: url('../img/backgroundimg.jpg') no-repeat center center/cover;
+  background: url('../img/backgroundimg.webp') no-repeat center center/cover;
   position: relative;
   display: flex;
   align-items: center;
