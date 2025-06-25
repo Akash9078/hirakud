@@ -202,7 +202,7 @@ p {
 .top-banner {
   height: 75vh;
   position: relative;
-  background: url('../img/backgroundimg.webp') no-repeat center center/cover;
+  background: url('https://pub-978fa224b48646b0b99f042a0935693b.r2.dev/backgroundimg.webp') no-repeat center center/cover;
   margin: 0;
   padding: 5rem 0;
   text-shadow: #000 0px 0px 10px;
@@ -495,7 +495,7 @@ p {
 
 /* About Us Page Custom Styles */
 .aboutus-hero {
-  background: url('../img/backgroundimg.webp') no-repeat center center/cover;
+  background: url('https://pub-978fa224b48646b0b99f042a0935693b.r2.dev/backgroundimg.webp') no-repeat center center/cover;
   position: relative;
   display: flex;
   align-items: center;
@@ -664,6 +664,18 @@ p {
     background: none;
     border-radius: 0;
     box-shadow: none;
+}
+.inquiry-graphic-img {
+  animation: rotateY 2.5s ease-in-out infinite alternate;
+}
+
+@keyframes rotateY {
+  0% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
 }
 @media (max-width: 991.98px) {
     .inquiry-section {
